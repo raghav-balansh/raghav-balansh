@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=raghav-balansh" alt="raghav-balansh" /></a> </p>
 
-- 🔭 I’m currently working on [Home Credit - Credit Risk Model Stability](https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability)
+- 🔭 I’m currently working on [Home Credit - Credit Risk Model Stability](https://www.geeksforgeeks.org/hack-a-thon/vultr-cloud-innovate-hackathon)
 
 - 🌱 I’m currently learning **Generative Adversarial Network**
 
