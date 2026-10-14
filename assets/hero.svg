@@ -1,0 +1,40 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0c29"/><stop offset=".55" stop-color="#302b63"/><stop offset="1" stop-color="#1b1b3a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".20"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f5ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#ff5fd2"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="900" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="900" height="300" fill="url(#bg)"/>
+  </g>
+  <rect x="40" y="36" width="820" height="228" rx="26" fill="url(#glass)" stroke="#fff" stroke-opacity=".28"/>
+  <rect x="41" y="37" width="818" height="226" rx="25" fill="none" stroke="#fff" stroke-opacity=".08"/>
+  <text x="450" y="50" text-anchor="middle" font-size="0"> </text>
+
+  <text x="450" y="125" text-anchor="middle" font-size="26" fill="#cbd5e1" opacity="0">
+    Hi 👋, I'm
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
+  <text x="450" y="185" text-anchor="middle" font-size="58" font-weight="700" fill="url(#txt)" opacity="0">
+    Raghav Maheshwari
+    <animate attributeName="opacity" values="0;1" begin=".4s" dur="1s" fill="freeze"/>
+  </text>
+
+  <g font-size="22" fill="#e2e8f0" text-anchor="middle">
+    <text x="450" y="226" opacity="0">Data Scientist · India
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.22;.27;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="450" y="226" opacity="0">Machine Learning &amp; Deep Learning
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.25;.30;.47;.52;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="450" y="226" opacity="0">Data Analytics &amp; Visualization
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.50;.55;.72;.77;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="450" y="226" opacity="0">Currently exploring GANs ✨
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.75;.80;.97;1" dur="12s" repeatCount="indefinite"/></text>
+  </g>
+</svg>
