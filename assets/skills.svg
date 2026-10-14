@@ -1,0 +1,46 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0c29"/><stop offset="1" stop-color="#24243e"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#ff5fd2"/></linearGradient>
+    <clipPath id="c"><rect width="900" height="380" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="380" fill="url(#bg)"/>
+  </g>
+  <rect x="30" y="24" width="840" height="332" rx="24" fill="url(#glass)" stroke="#fff" stroke-opacity=".25"/>
+  <text x="60" y="62" font-size="20" font-weight="600" fill="#e2e8f0">Skill Radar · self-assessed focus areas</text>
+
+  <g font-size="15" fill="#e2e8f0">
+    <!-- row template: label, track, animated fill, value -->
+    <text x="60" y="108">Python</text>
+    <rect x="200" y="94" width="560" height="14" rx="7" fill="#fff" fill-opacity=".1"/>
+    <rect x="200" y="94" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="504" dur="1.6s" fill="freeze" begin="0s"/></rect>
+    <text x="780" y="108">90%</text>
+
+    <text x="60" y="148">Data Analytics</text>
+    <rect x="200" y="134" width="560" height="14" rx="7" fill="#fff" fill-opacity=".1"/>
+    <rect x="200" y="134" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="476" dur="1.6s" fill="freeze" begin=".2s"/></rect>
+    <text x="780" y="148">85%</text>
+
+    <text x="60" y="188">Data Visualization</text>
+    <rect x="200" y="174" width="560" height="14" rx="7" fill="#fff" fill-opacity=".1"/>
+    <rect x="200" y="174" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="476" dur="1.6s" fill="freeze" begin=".4s"/></rect>
+    <text x="780" y="188">85%</text>
+
+    <text x="60" y="228">Machine Learning</text>
+    <rect x="200" y="214" width="560" height="14" rx="7" fill="#fff" fill-opacity=".1"/>
+    <rect x="200" y="214" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="448" dur="1.6s" fill="freeze" begin=".6s"/></rect>
+    <text x="780" y="228">80%</text>
+
+    <text x="60" y="268">Deep Learning</text>
+    <rect x="200" y="254" width="560" height="14" rx="7" fill="#fff" fill-opacity=".1"/>
+    <rect x="200" y="254" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="392" dur="1.6s" fill="freeze" begin=".8s"/></rect>
+    <text x="780" y="268">70%</text>
+
+    <text x="60" y="308">GANs <tspan fill="#fbbf24" font-size="12">(learning)</tspan></text>
+    <rect x="200" y="294" width="560" height="14" rx="7" fill="#fff" fill-opacity=".1"/>
+    <rect x="200" y="294" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="280" dur="1.6s" fill="freeze" begin="1s"/></rect>
+    <text x="780" y="308">50%</text>
+  </g>
+</svg>
